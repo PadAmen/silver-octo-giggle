@@ -1,0 +1,643 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\MUTWndApp.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FLATULT_DLG DIALOGEX 0, 0, 320, 200
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_MAIN_PROGRESS,"msctls_progress32",WS_BORDER,135,15,108,16
+    LTEXT           "",IDC_PROGRESS_TEXT,16,17,94,16
+END
+
+IDD_APPLY_DLG DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "开始检查",IDC_START_BTN,65,102,76,33
+    CONTROL         "",IDC_UPDATE_BTN,"Button",BS_OWNERDRAW | WS_TABSTOP,237,112,72,64
+    PUSHBUTTON      "",IDC_MENU_BTN,7,97,40,43
+    CONTROL         "",IDC_RADIO_LINE,"Button",BS_AUTORADIOBUTTON,16,20,14,15
+    CONTROL         "",IDC_RADIO_CURVE,"Button",BS_AUTORADIOBUTTON,69,20,14,15
+    PUSHBUTTON      "",IDC_BTN_LINE,7,47,52,36
+    PUSHBUTTON      "",IDC_BTN_CARVE,64,47,52,36
+END
+
+IDD_SCANB_DLG DIALOGEX 0, 0, 386, 357
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "请选择一位病人！",IDC_PATIENT_BTN,195,14,70,19,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "请选择一位医生！",IDC_DOCTOR_BTN,115,14,70,19,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "",IDC_CLOSE_BTN,342,324,31,26
+    PUSHBUTTON      "",IDC_MODE_BTN,21,278,32,26
+    PUSHBUTTON      "",IDC_SCANB_MENU,21,320,32,26
+    PUSHBUTTON      "",IDC_STATE_BTN,21,45,32,26
+    PUSHBUTTON      "",IDC_SAVE_BTN,21,77,32,26
+    PUSHBUTTON      "",IDC_LIST_BTN,360,215,18,22,NOT WS_VISIBLE
+    LTEXT           "频率",IDC_FREQ_STATIC,17,15,39,11
+    RTEXT           "FPS",IDC_FPS_STATIC,333,15,39,13,SS_WORDELLIPSIS | NOT WS_VISIBLE
+    LTEXT           "",IDC_FREQ_SET,17,31,39,11
+    RTEXT           "",IDC_FPS_SET,333,32,39,11
+    PUSHBUTTON      "",IDC_LEFT_BTN,21,104,32,26
+    PUSHBUTTON      "",IDC_ADD_BTN,21,130,32,26
+    PUSHBUTTON      "",IDC_CUT_BTN,21,196,32,26
+    CTEXT           "增益",IDC_DEPTH_STATIC,26,159,29,15
+    CTEXT           "",IDC_DEPTH_SET,25,178,29,15
+    PUSHBUTTON      "",IDC_GRAY_BMP,361,121,17,80
+    CTEXT           "",IDC_MAC_STATIC,353,38,16,79
+    PUSHBUTTON      "",IDC_NET_BTN,358,244,20,24
+    PUSHBUTTON      "",IDC_EVALUE_BTN,360,279,18,16
+    CONTROL         "",IDC_THUMB_LIST,"SysListView32",WS_TABSTOP,204,42,95,178,WS_EX_TRANSPARENT
+END
+
+IDD_APPLY_MENU DIALOGEX 0, 0, 225, 52
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "病例档案",IDC_FILE_BTN,3,14,45,22
+    PUSHBUTTON      "设置",IDC_SET_BTN,57,14,45,22,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "教学",IDC_TEACH_BTN,111,14,45,22,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "操作指导",IDC_OPERATE_BTN,165,14,45,22,0,WS_EX_TRANSPARENT
+END
+
+IDD_ABOUT_DLG DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "update",IDC_ABOUT_UBTN,20,14,55,19
+    PUSHBUTTON      "",IDC_ICON_BTN,93,14,55,36
+    CTEXT           "",IDC_STATIC_HARWARE,163,18,54,19
+    CTEXT           "",IDC_STATIC_SOFTWARE,233,19,54,19
+END
+
+IDD_DOCTOR_DLG DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_SEARCH_BTN,7,7,33,22
+    PUSHBUTTON      "",IDC_ADD_BTN,45,7,33,22
+    PUSHBUTTON      "",IDC_SELECT_BTN,82,7,33,22
+    PUSHBUTTON      "",IDC_EXIT_BTN,123,7,33,22
+    EDITTEXT        IDC_INPUT_EDIT,7,34,82,21,NOT WS_BORDER
+    LISTBOX         IDC_LIST1,162,7,65,50,LBS_SORT | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PATIENT_DLG DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_SELECT_BTN,7,8,32,21
+    PUSHBUTTON      "",IDC_ADD_BTN,46,8,32,21
+    PUSHBUTTON      "",IDC_TEXT_BTN,85,8,32,21
+    LISTBOX         IDC_LIST1,129,8,110,65,LBS_SORT | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SWND_RUN_LEFT DIALOGEX 0, 0, 63, 115
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_BTN_ADD,18,17,27,21
+    PUSHBUTTON      "",IDC_BTN_DEC,18,78,27,21
+    CTEXT           "深度",IDC_DEPTH_STATIC,22,42,25,15
+    CTEXT           "",IDC_SET_DEPTH,22,61,25,15
+END
+
+IDD_SWND_FRZE_LEFT DIALOGEX 0, 0, 70, 187
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "长度",IDC_BTN_LEN,21,2,29,21
+    PUSHBUTTON      "面积",IDC_BTN_AREA,21,24,29,21
+    PUSHBUTTON      "箭头",IDC_BTN_ARRW,21,46,29,21
+    PUSHBUTTON      "角度",IDC_BTN_ANGLE,21,68,29,21
+    PUSHBUTTON      "周长",IDC_BTN_CIR,21,90,29,21
+    PUSHBUTTON      "文字",IDC_BTN_TEXT,21,112,29,21
+    PUSHBUTTON      "",IDC_BTN_LAST,21,132,29,21
+    PUSHBUTTON      "",IDC_BTN_ALL,21,154,29,21
+END
+
+IDD_SCANB_MENU DIALOGEX 0, 0, 95, 156
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "病例档案",IDC_SCANB_FILE,29,22,41,17
+    PUSHBUTTON      "操作指导",IDC_SCANB_OPERA,29,38,41,17
+    PUSHBUTTON      "参考教学",IDC_SCANB_TEACH,29,54,41,17
+    PUSHBUTTON      "穿刺",IDC_SCANB_PUNC,29,70,41,17
+    PUSHBUTTON      "特殊",IDC_SCANB_SPEICAL,29,86,41,17
+    PUSHBUTTON      "设置",IDC_SCANB_SET,29,102,41,17
+    PUSHBUTTON      "关于",IDC_SCANB_ABOUT,29,118,41,17
+END
+
+IDD_SAVE_WND DIALOGEX 0, 0, 259, 62
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "DCM_OPEN",IDC_BTN_TEST,71,20,52,23
+    PUSHBUTTON      "本地保存",IDC_BTN_LOCAL,137,21,52,23
+END
+
+IDD_SWND_FRZE_BTM DIALOGEX 0, 0, 232, 67
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER_MOIVE,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,29,19,168,11
+    PUSHBUTTON      "",IDC_BTN_PLAY,96,28,24,18
+    PUSHBUTTON      "",IDC_BTN_MLIST,63,28,17,18
+END
+
+IDD_SWND_RUN_BTM DIALOGEX 0, 0, 226, 53
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "小器官",IDC_BTN_NORMAL,15,17,42,16
+    PUSHBUTTON      "肌肉",IDC_BTN_BLOOD,63,17,42,16
+    PUSHBUTTON      "血管",IDC_BTN_ORGAN,113,17,42,16
+    PUSHBUTTON      "浅表",IDC_BTN_MUS,166,18,42,16
+END
+
+IDD_TEXT_DLG DIALOGEX 0, 0, 262, 54
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_TEXT,83,10,95,12,NOT WS_BORDER
+    PUSHBUTTON      "确定",IDC_BUTTON1,83,23,95,12
+END
+
+IDD_REPORT_DLG DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_EXIT_BTN,19,16,28,14
+    PUSHBUTTON      "",IDC_DELETE_BTN,52,16,28,14
+    PUSHBUTTON      "",IDC_MODIFY_BTN,85,16,28,14
+    EDITTEXT        IDC_INPUT_EDIT,123,14,62,20,NOT WS_BORDER
+    CTEXT           "",IDC_REPORT_STATIC,208,14,67,35
+    PUSHBUTTON      "",IDC_SELECTD_BTN,19,41,28,14
+    PUSHBUTTON      "",IDC_CANCEL_BTN,52,41,28,14
+    PUSHBUTTON      "",IDC_DELETE_BTN1,85,41,28,14
+    PUSHBUTTON      "",IDC_EXPORT_BTN,120,41,28,14
+    PUSHBUTTON      "",IDC_COMPARE_BTN,157,41,28,14
+    LISTBOX         IDC_LIST1,27,68,67,56,LBS_MULTIPLESEL | LBS_OWNERDRAWVARIABLE | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL
+END
+
+IDD_DCINFO_DLG DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "",IDC_TEXT_STATIC,19,17,59,20
+    CTEXT           "",IDC_MOTEXT_STATIC,88,17,59,20
+    PUSHBUTTON      "",IDC_ADD_BTN,160,14,40,19
+    EDITTEXT        IDC_NAME_EDIT,7,94,61,17
+    CONTROL         "ma",IDC_MAN_RADIO,"Button",BS_AUTORADIOBUTTON,27,60,21,17
+    CONTROL         "nv",IDC_WOMAN_RADIO,"Button",BS_AUTORADIOBUTTON,81,60,21,17
+    EDITTEXT        IDC_PHONE_EDIT,7,116,61,17
+    EDITTEXT        IDC_EMAIL_EDIT,7,135,61,17
+    EDITTEXT        IDC_COMPANY_EDIT,74,94,61,17
+    EDITTEXT        IDC_DUTIES_EDIT,74,114,61,17
+    EDITTEXT        IDC_OTHERS_EDIT,73,134,61,17
+END
+
+IDD_PTINFO_DLG DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_ADD_BTN,97,15,41,19
+    CTEXT           "",IDC_TEXT_STATIC,14,14,67,24
+    PUSHBUTTON      "",IDC_PHOTO_BTN,159,15,39,29
+    CONTROL         "",IDC_MAN_RADIO,"Button",BS_AUTORADIOBUTTON,19,53,30,30
+    CONTROL         "",IDC_WOMAN_RADIO,"Button",BS_AUTORADIOBUTTON,67,53,30,30
+    EDITTEXT        IDC_ID_EDIT,207,14,61,17
+    EDITTEXT        IDC_NAME_EDIT,207,35,61,17
+    EDITTEXT        IDC_BIRTHDAY_EDIT,207,56,61,17
+    EDITTEXT        IDC_HISTORY_EDIT,207,77,61,17
+END
+
+IDD_PROCESS_DLG DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,85,59,87,21
+END
+
+IDD_START_DIALOG DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_EDITIMG_DLG DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "导出",IDC_EXPORT_BTN,16,22,38,18
+    PUSHBUTTON      "删除",IDC_DELETE_BTN,61,22,38,18
+    PUSHBUTTON      "发送",IDC_SEND_BTN,112,22,38,18
+    LTEXT           "sdlkih",IDC_PATIENT_STATIC,179,25,58,25
+    LTEXT           "dgrg",IDC_SCAN_STATIC,179,74,58,25
+END
+
+IDD_SCANOVER_DLG DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "保存",IDC_SAVE_BTN,16,17,44,19
+    PUSHBUTTON      "放弃",IDC_GIVEUP_BTN,62,17,41,19
+    CONTROL         "",IDC_LIST1,"SysListView32",WS_TABSTOP,34,47,110,94
+    PUSHBUTTON      "导出",IDC_EXPORT_BTN,105,18,41,19
+    PUSHBUTTON      "发送",IDC_SEND_BTN,150,17,40,19
+    PUSHBUTTON      "请选择一名医生",IDC_DOCTOR_SELECT_BTN,169,62,40,19
+    PUSHBUTTON      "请选择一名病人",IDC_PATIENT_SELECT_BTN,223,63,40,19
+END
+
+IDD_REPORTINFO_DLG DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_SELECTD_BTN1,19,149,28,14
+    PUSHBUTTON      "",IDC_CANCEL_BTN1,52,149,28,14
+    PUSHBUTTON      "",IDC_DELETE_BTN1,85,149,28,14
+    PUSHBUTTON      "",IDC_EXPORT_BTN1,120,149,28,14
+    PUSHBUTTON      "",IDC_COMPARE_BTN1,157,149,28,14
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | WS_TABSTOP,35,46,136,85
+    PUSHBUTTON      "",IDC_EXIT_BTN1,19,16,28,14,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_SEARCH_BTN1,52,16,28,14,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_MODIFY_BTN1,85,16,28,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_INPUT_EDIT1,123,14,62,20,NOT WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "MUTWndApp.rc.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "MUTWndApp.rc.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_FLATULT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_APPLY_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_SCANB_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 379
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 350
+    END
+
+    IDD_APPLY_MENU, DIALOG
+    BEGIN
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_ABOUT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DOCTOR_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_PATIENT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 8
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_SWND_RUN_LEFT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 56
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 108
+    END
+
+    IDD_SWND_FRZE_LEFT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 63
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_SCANB_MENU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 88
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_SAVE_WND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_SWND_FRZE_BTM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_SWND_RUN_BTM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 219
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 46
+    END
+
+    IDD_TEXT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 255
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 47
+    END
+
+    IDD_REPORT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DCINFO_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_PTINFO_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_PROCESS_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_START_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_EDITIMG_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_SCANOVER_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_REPORTINFO_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_SCANB_MENU MENU 
+BEGIN
+    POPUP "x"
+    BEGIN
+        MENUITEM "病例档案",                        ID_X_32778
+        MENUITEM "操作指导",                        ID_X_32779
+        MENUITEM "参考教学",                        ID_X_32780
+        MENUITEM "穿刺",                          ID_X_32781
+        MENUITEM "特殊",                          ID_X_32782
+        MENUITEM "设置",                          ID_X_32783
+        MENUITEM "关于",                          ID_X_32784
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+IDR_HTML_RUNBTMWND      HTML                    "RunBtmWnd.htm"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_BUTTER         ICON                    "F:\\项目\\超声波项目\\工程\\FlatDemo\\FlatUltDemo\\svn_dict\\WinApp\\Debug\\ui-pic\\Butterfly.ico"
+IDI_UP_ICO              ICON                    "F:\\项目\\超声波项目\\工程\\FlatDemo\\FlatUltDemo\\svn_dict\\WinApp\\Debug\\ui-pic\\up.ico"
+IDI_DOWN_ICO            ICON                    "F:\\项目\\超声波项目\\工程\\FlatDemo\\FlatUltDemo\\svn_dict\\WinApp\\Debug\\ui-pic\\down.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_START_BITMAP        BITMAP                  "F:\\项目\\超声波项目\\工程\\FlatDemo\\FlatUltDemo\\svn_dict\\WinApp\\Debug\\ui-pic\\mu1-5small.bmp"
+IDB_TEST_BITMAP         BITMAP                  "F:\\项目\\超声波项目\\工程\\FlatDemo\\FlatUltDemo\\svn_dict\\WinApp\\Debug\\ui-pic\\start.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_ICON_PNG2           PNG                     "F:\\项目\\超声波项目\\工程\\FlatDemo\\FlatUltDemo\\svn_dict\\WinApp\\Debug\\ui-pic\\icon.png"
+IDB_LINE_PNG            PNG                     "F:\\项目\\超声波项目\\工程\\FlatDemo\\FlatUltDemo\\svn_dict\\WinApp\\Debug\\ui-pic\\line.png"
+IDB_CURVE_PNG           PNG                     "F:\\项目\\超声波项目\\工程\\FlatDemo\\FlatUltDemo\\svn_dict\\WinApp\\Debug\\ui-pic\\curve.png"
+IDB_SRADIO_PNG          PNG                     "F:\\项目\\超声波项目\\工程\\FlatDemo\\FlatUltDemo\\svn_dict\\WinApp\\Debug\\ui-pic\\radioselected.png"
+IDB_URADIO_PNG          PNG                     "F:\\项目\\超声波项目\\工程\\FlatDemo\\FlatUltDemo\\svn_dict\\WinApp\\Debug\\ui-pic\\raiounselect.png"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\MUTWndApp.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

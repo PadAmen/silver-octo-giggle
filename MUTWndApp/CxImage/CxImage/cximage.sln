@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CxImage", "CxImage.vcproj", "{45177234-979C-421E-86FC-193B92867FA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45177234-979C-421E-86FC-193B92867FA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{45177234-979C-421E-86FC-193B92867FA5}.Debug|Win32.Build.0 = Debug|Win32
+		{45177234-979C-421E-86FC-193B92867FA5}.Release|Win32.ActiveCfg = Release|Win32
+		{45177234-979C-421E-86FC-193B92867FA5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

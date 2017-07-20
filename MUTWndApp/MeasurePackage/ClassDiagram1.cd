@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CComputeMethod" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ECgAAABIAAQABgQQAwAABCACwACADISAAVAAAAAGAAA=</HashCode>
+      <FileName>ComputeMethod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHeartEjbACxjsd" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAACABAACAAAAABA=</HashCode>
+      <FileName>MHeartEjbACXjsdAndEF.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHeartEjbBkll" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAQAAAABAACAAAACAAAAABA=</HashCode>
+      <FileName>MHeartEjbBkll.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHeartHSpeed" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAQAAAACAAAACAAACAAA=</HashCode>
+      <FileName>MHeartHSpeed.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHeartLHWeight" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAABAAAAAACBAMAAAAAABIAABCAACACAQAQABA=</HashCode>
+      <FileName>MHeartLHWeight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHeartSBTime" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAAAAAAAAgEAAABAAAAAAAABIAIACAADACAAAQABA=</HashCode>
+      <FileName>MHeartSBTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHeartZdmBkll" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAABAAAAAAAAAAAAACAAAACAAAAADA=</HashCode>
+      <FileName>MHeartZdmBkll.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHeartZdmLADAOD" Collapsed="true">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAABAAAAAAABACAAAAAABIAAACCACACAAAQABA=</HashCode>
+      <FileName>MHeartZdmLADAOD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHeartZsgn" Collapsed="true">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAgAAABAAAAAAABAAAAAAAABIAEACAIKACAAAQABA=</HashCode>
+      <FileName>MHeartZsgn.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMAngle" Collapsed="true">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UACAAQAAIAAhEAAAAAIQAAAAABIAIACAADAAAAAQABA=</HashCode>
+      <FileName>MAngle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMD3ToD1" Collapsed="true">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAABAAAAAAABEIAAAAAABIAAACAICACEAAQABA=</HashCode>
+      <FileName>MD3ToD1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMDiamPercent" Collapsed="true">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEBAAAAAAABAAAAEAIABIAAACAACAAEAAQABA=</HashCode>
+      <FileName>MDiamPercent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMDistance" Collapsed="true">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAABAAAAgEAQAAgAAAAAABBIAAACAADACAAAYABA=</HashCode>
+      <FileName>MDistance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMDistanceYszs" Collapsed="true">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAARAAAABAAAAAAABAIAAAAABBIAAACAACACEAAQABA=</HashCode>
+      <FileName>MDistanceYszs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMDRatio" Collapsed="true">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAABAAAAAAAFAAAAAAAABIAAgCAIGEAAAAQABA=</HashCode>
+      <FileName>MDRatio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMeasureObject" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAIABAABAAAAABIAkAOAICACEAAQABA=</HashCode>
+      <FileName>MeasureObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMeasurePackage" Collapsed="true">
+    <Position X="11.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurePackage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMElArea" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAggIQAAgCAgAIBCAAAgAAFBIAAAGAACICEAASCBA=</HashCode>
+      <FileName>MElArea.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMElPercent" Collapsed="true">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAACAAAABAAAAAAQABIAAACAACIAEAAQABA=</HashCode>
+      <FileName>MElPercent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMElRatio" Collapsed="true">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAABAAAIAAAABIAAACAACIAEAAQABQ=</HashCode>
+      <FileName>MElRatio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMPWHeartRatio" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAABAAAAgAAQABCAAAiAABBIAAACAADICAAAYABA=</HashCode>
+      <FileName>MPWHeartRatio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMSlope" Collapsed="true">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAABAAAAAAAAAAAAASAAAAAAAAAABA=</HashCode>
+      <FileName>MSlope.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMTrArea" Collapsed="true">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAABAAAAABEAAAIAAABIAAAGAACACEAAQABA=</HashCode>
+      <FileName>MTrArea.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMTrLength" Collapsed="true">
+    <Position X="11.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAFAAAAAAAAAgAAAABIAAACAACAAAAAQABA=</HashCode>
+      <FileName>MTrLength.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMTrPercent" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAABAAAAAAAABIAAIiAACAAEAAQAJA=</HashCode>
+      <FileName>MTrPercent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMTrRatio" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAgAAAAAAAAAAABBAAAAAAABIABACAACAAkAAQAJA=</HashCode>
+      <FileName>MTrRatio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMVxLength" Collapsed="true">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAQABIAAACAACAAAAEQABI=</HashCode>
+      <FileName>MVxLength.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMVxArea" Collapsed="true">
+    <Position X="9.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAQBAAABAAQBBIAAACgACAAAAEQABA=</HashCode>
+      <FileName>MVxArea.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMVolumeTr" Collapsed="true">
+    <Position X="11.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAABAAAAQAAABIAAACMACAAEAAQAJA=</HashCode>
+      <FileName>MVolumeTr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMVolumeTD" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAABAAAAAAABAIAACAAEBIAAACAACACEAAQABA=</HashCode>
+      <FileName>MVolumeTD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMVolumeBiQlxtj" Collapsed="true">
+    <Position X="2.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAACAAACCACAAABA=</HashCode>
+      <FileName>MVolumeBiQlxtj.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMVolumeBi" Collapsed="true">
+    <Position X="4.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAABABAhAAAAABAIAAAAAABIAAASAACACEAAQABA=</HashCode>
+      <FileName>MVolumeBi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMVolumeEl" Collapsed="true">
+    <Position X="6.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAgAAAgBAAAAAAAABIAIACAACAAEAAQABA=</HashCode>
+      <FileName>MVolumeEl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
